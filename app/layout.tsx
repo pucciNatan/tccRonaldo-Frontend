@@ -7,11 +7,7 @@ export const metadata: Metadata = {
   description: "Encontre os melhores editores",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="pt-br">
       <body>
