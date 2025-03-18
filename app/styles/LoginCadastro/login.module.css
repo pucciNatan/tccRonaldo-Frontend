@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap');
+
+.loginPage{
+    font-family: 'Times New Roman', serif;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.dividerBottom {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 10px auto;
+}
+
+.dividerBottom a {
+    color: #6a11cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dividerBottom a:hover {
+    text-decoration: underline;
+}
+
+
+.loginContainer {
+    
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.loginBox {
+    width: 100%;
+    padding: 20px;
+}
+
+.h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profilePicture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin: 10px auto;
+}
+
+.inputField {
+    width: 92%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: none;
+    background-color: lightgray;
+    font-size: 16px;
+}
+
+.forgotPassword {
+    color: 	#2600ff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.loginButton {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divider span {
+    background: white;
+    padding: 0 10px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socialIcons img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
